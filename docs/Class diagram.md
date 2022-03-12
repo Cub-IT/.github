@@ -8,10 +8,10 @@ classDiagram
     Post <|-- GitAssigment
 
     class User {
-        id: Long
+        id : Long
         name : String
-        email: String
-        password: String
+        email : String
+        password : String
     }
     class Participant {
         id: Long
@@ -27,14 +27,14 @@ classDiagram
         MEMBER
     }
     class Group {
-        id: Long
+        id : Long
         participants : List~Participant~
         posts : List~Post~
         creationDate
     }
     class Post {
         <<abstract>>
-        id: Long
+        id : Long
         creationDate
         modificationDate
         author : User
