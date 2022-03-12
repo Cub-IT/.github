@@ -15,6 +15,7 @@ classDiagram
     class Participant {
         user : User
         role : Role
+        accessionDate
         posts : Posts ???
     }
     class Role {
@@ -26,6 +27,7 @@ classDiagram
     class Group {
         participants : List~Participant~
         posts : List~Post~
+        creationDate
     }
     class Post {
         <<abstract>>
