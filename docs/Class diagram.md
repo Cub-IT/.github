@@ -9,6 +9,8 @@ classDiagram
 
     class User {
         name : String
+        email: String
+        password: String
     }
     class Participant {
         user : User
