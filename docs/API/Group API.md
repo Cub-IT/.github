@@ -46,7 +46,7 @@ HTTP status code: 200
 ```
 </details>
 
-### GET /api/v1/group/:groupId
+### GET /api/v1/user/:userId/groups/:groupId
 <details>
 <summary>A group that user take part in</summary>
 	
@@ -91,4 +91,16 @@ HTTP status code: 200
 	]
 }
 ```
+</details>
+
+### GET /api/v1/user/:userId/groups/:groupId/tasks
+<details>
+<summary>A list of tasks in a certain group that user take part in</summary>
+	
+</details>
+
+### GET /api/v1/user/:userId/groups/:groupId/participantns
+<details>
+<summary>A list of other participants in a certain group that user take part in</summary>
+	
 </details>
