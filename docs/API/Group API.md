@@ -99,6 +99,12 @@ HTTP status code: 200
 	
 </details>
 
+### DELETE /api/v1/user/:userId/groups/:groupId
+<details>
+<summary>Leave a group</summary>
+	
+</details>
+
 ### GET /api/v1/user/:userId/groups/:groupId/tasks
 <details>
 <summary>A list of tasks in a certain group that user take part in</summary>
