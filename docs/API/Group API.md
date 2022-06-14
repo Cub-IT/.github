@@ -16,7 +16,7 @@ HTTP status code: 200
 ```
 [
 	{
-		“groupId” : “groupId1”
+		“groupId” : “cabef633-3b34-45db-801f-d5b21b9e7bee”
 		“name” : “Group name1”,
 		“description” : “This is a cool group1”,
 		“ownerFirstName” : “Alex1”,
@@ -25,7 +25,7 @@ HTTP status code: 200
 		“coverColor” : “#0000003c”
 	},
 	{
-		“groupId” : “groupId2”,
+		“groupId” : “cabef633-3b34-45db-801f-d5b21b9e7bwe”,
 		“name” : “Group name2”,
 		“description” : “This is a cool group2”,
 		“ownerFirstName” : “Alex2”,
@@ -34,7 +34,7 @@ HTTP status code: 200
 		“coverColor” : “#0000004f”
 	},
 	{	
-		“groupId” : “groupId3”,
+		“groupId” : “cabef633-3b34-45db-801f-d5b21b9e7bef”,
 		“name” : “Group name3”,
 		“description” : “This is a cool group3”,
 		“ownerFirstName” : “Alex3”,
