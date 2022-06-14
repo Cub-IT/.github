@@ -99,6 +99,12 @@ HTTP status code: 200
 	
 </details>
 
+### PATCH /api/v1/user/:userId/groups/:groupId
+<details>
+<summary>Change an information about a group</summary>
+	
+</details>
+
 ### DELETE /api/v1/user/:userId/groups/:groupId
 <details>
 <summary>Leave a group</summary>
@@ -117,8 +123,32 @@ HTTP status code: 200
 	
 </details>
 
+### PATCH /api/v1/user/:userId/groups/:groupId/tasks
+<details>
+<summary>Change a content of a task</summary>
+	
+</details>
+
+### DELETE /api/v1/user/:userId/groups/:groupId/tasks
+<details>
+<summary>Delete a task</summary>
+	
+</details>
+
 ### GET /api/v1/user/:userId/groups/:groupId/participantns
 <details>
 <summary>A list of other participants in a certain group that user take part in</summary>
+	
+</details>
+
+### POST /api/v1/user/:userId/groups/:groupId/participantns/
+<details>
+<summary>Join a group</summary>
+	
+</details>
+
+### DELETE /api/v1/user/:userId/groups/:groupId/participantns
+<details>
+<summary>Leave a group</summary>
 	
 </details>
