@@ -141,7 +141,7 @@ HTTP status code: 200
 	
 </details>
 
-### POST /api/v1/user/:userId/groups/:groupId/participantns/
+### POST /api/v1/user/:userId/groups/:groupId/participantns
 <details>
 <summary>Join a group</summary>
 	
