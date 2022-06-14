@@ -93,9 +93,21 @@ HTTP status code: 200
 ```
 </details>
 
+### POST /api/v1/user/:userId/groups/:groupId
+<details>
+<summary>Create a new group</summary>
+	
+</details>
+
 ### GET /api/v1/user/:userId/groups/:groupId/tasks
 <details>
 <summary>A list of tasks in a certain group that user take part in</summary>
+	
+</details>
+
+### POST /api/v1/user/:userId/groups/:groupId/tasks
+<details>
+<summary>Create a new task in a group</summary>
 	
 </details>
 
