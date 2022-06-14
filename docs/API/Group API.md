@@ -2,7 +2,7 @@
 
 ### GET /api/v1/user/:userId/groups
 <details>
-<summary>All groups that usar take part in</summary>
+<summary>All groups that user take part in</summary>
 	
 #### Example:
 	
@@ -43,5 +43,52 @@ HTTP status code: 200
 		“coverColor” : “#0000003c”
 	}
 ]
+```
+</details>
+
+### GET /api/v1/group/:groupId
+<details>
+<summary>A group that user take part in</summary>
+	
+#### Example:
+	
+```
+curl --location --request GET 'https://cub.it/api/v1/group/cabef633-3b34-45db-801f-d5b21b9e7bee' \
+--header 'Content-Type: application/json'
+```
+	
+#### Response:
+HTTP status code: 200
+```
+{
+	{
+		“groupId” : “groupId1”,
+		“name” : “Group name1”,
+		“description” : “This is a cool group1”,
+		“ownerFirstName” : “Axel”,
+		“ownerLastName” : “Slabos”
+		“ownerEmail” : “owner.email@gmail.com”,
+		“coverColor” : “#0000003c”
+
+	},
+	“taskList” : [
+		{
+			“id” : “postId1”,
+			“creationDate” : “12.17.1973”,
+			“userFirstName” : “Axel”,
+			“userLastName” : “Slabos”,
+			“content” : “content first line\ncontent second line\nhttps://some-link.com”
+			“userColor” : “#0000003c”
+		},
+		{
+			“id” : “postId2”,
+			“creationDate” : “12.17.1973”,
+			“userFirstName” : “Axel”,
+			“userLastName” : “Slabos”,
+			“content” : “content first line\ncontent second line\nhttps://some-link.com”
+			“userColor” : “#0000003c”
+		}
+	]
+}
 ```
 </details>
