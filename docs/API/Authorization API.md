@@ -1,6 +1,6 @@
 # That document describes API that is used by clients to interact with CubIT
 
-### POST /api/v1/user/new
+### POST /api/v1/user
 <details>
 <summary>Registration</summary>
 
@@ -38,7 +38,7 @@ HTTP status code: 200
 ```
 </details>
 
-### GET /login
+### GET /api/v1/user
 <details>
 <summary>Authorization</summary>
 
