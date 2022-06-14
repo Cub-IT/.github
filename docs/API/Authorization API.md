@@ -20,9 +20,9 @@ curl --location --request POST 'https://cub.it/api/v1/user/new' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	“userFirstName”: “Axel”,
-  “userLastName”: “Slabos”,
-  “email”: “template.email@gmail. com”,
-  “password”: “template_password”
+ 	“userLastName”: “Slabos”,
+	“email”: “template.email@gmail. com”,
+ 	“password”: “template_password”
 }'
 ```
 
@@ -31,9 +31,9 @@ HTTP status code: 200
 
 ```
 {
-    "parameterName": "_csrf",
-    "headerName": "X-CSRF-TOKEN",
-    "token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
+	"parameterName": "_csrf",
+	"headerName": "X-CSRF-TOKEN",
+	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
 }
 ```
 
@@ -54,8 +54,8 @@ Authorization
 curl --location --request POST 'https://cub.it/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-  “email”: “template.email@gmail. com”,
-  “password”: “template_password”
+	“email”: “template.email@gmail. com”,
+	“password”: “template_password”
 }'
 ```
 
@@ -64,8 +64,8 @@ HTTP status code: 200
 
 ```
 {
-    "parameterName": "_csrf",
-    "headerName": "X-CSRF-TOKEN",
-    "token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
+	"parameterName": "_csrf",
+	"headerName": "X-CSRF-TOKEN",
+	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
 }
 ```
