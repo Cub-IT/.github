@@ -32,7 +32,8 @@ HTTP status code: 200
 {
 	"parameterName": "_csrf",
 	"headerName": "X-CSRF-TOKEN",
-	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
+	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee",
+	"userId" : "userdId"
 }
 ```
 </details>
@@ -66,7 +67,8 @@ HTTP status code: 200
 {
 	"parameterName": "_csrf",
 	"headerName": "X-CSRF-TOKEN",
-	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee"
+	"token": "cabef633-3b34-45db-801f-d5b21b9e7bee",
+	"userId" : "userdId"
 }
 ```
 </details>
