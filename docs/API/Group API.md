@@ -93,10 +93,23 @@ HTTP status code: 200
 ```
 </details>
 
-### POST /api/v1/user/:userId/groups/:groupId
+### POST /api/v1/user/:userId/groups/
 <details>
-<summary>Create a new group</summary>
+<summary>Create a new group</summary
 	
+</details>
+
+### POST /api/v1/user/:userId/groups/
+<details>
+<summary>Join the group</summary>
+### Request
+```
+	{
+		"groupCode" : "H3F4691J"
+	}
+```
+### Response
+HTTP status code: 200
 </details>
 
 ### PATCH /api/v1/user/:userId/groups/:groupId
