@@ -102,6 +102,7 @@ HTTP status code: 200
 ### POST /api/v1/user/:userId/groups/
 <details>
 <summary>Join the group</summary>
+	
 ### Request
 ```
 	{
@@ -110,6 +111,7 @@ HTTP status code: 200
 ```
 ### Response
 HTTP status code: 200
+	
 </details>
 
 ### PATCH /api/v1/user/:userId/groups/:groupId
