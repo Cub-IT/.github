@@ -95,7 +95,7 @@ HTTP status code: 200
 
 ### POST /api/v1/user/:userId/groups/
 <details>
-<summary>Create a new group</summary
+<summary>Create a new group</summary>
 	
 </details>
 
