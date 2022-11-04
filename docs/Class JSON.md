@@ -40,7 +40,7 @@ Class
   "description": "The intro to the calculus.",
   "code": "jeO8Ur4eDwWr",
   "color": "#FFA388",
-  "creation_time": "2012-04-23T18:25:43.511Z"
+  "created_datetime": "2012-04-23T18:25:43.511Z"
 }
 ```
 
@@ -73,7 +73,7 @@ Post:
   "class_id": 0,
   "title": "Head-first about class",
   "description": "This is more detailed explanation about this post",
-  "creation_date": "2012-04-23T18:25:43.511Z",
-  "modification_date": "2012-04-23T18:25:43.511Z"
+  "created_datetime": "2012-04-23T18:25:43.511Z",
+  "updated_datetime": "2012-04-23T18:25:43.511Z"
 }
 ```
