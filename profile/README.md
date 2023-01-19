@@ -1,25 +1,16 @@
+
 # Cub-IT
-Cub-IT - це сервіс, створений для навчальних закладів з метою спрощення створення, поширення, сбору та обробки завдань безпаперовим шляхом.
-Може використовуватися викладачами та студентами.
+Cub-IT is a service created for educational institutions to simplify the creation, distribution, collection and processing of tasks in a paperless way.
+Can be used by teachers and students.
 
-## Мета проекту
-Метою цього проекту є здобуття необхідних знань та навичок, які є невід'ємною умовою розвитку розробника, як спеціаліста.
-Ми маємо на меті реалізувати ключові елементи клієнт-серверного застосунку, що дасть нам розуміння процесу самої розробки, 
-навички роботи в команді та підтвердження навичок у відповідній сфері розробки програмного забезпечення.
+## Purpose of the project
+The purpose of this project is to acquire the necessary knowledge and skills, which are an indispensable condition for the development of a developer as a specialist.
+We aim to implement the key elements of a client-server application, which will give us an understanding of the development process itself,
+teamwork skills and proven skills in the relevant software development field.
 
-## Основні компоненти
-Основними компонентами сервісу є:
- - Web-клієнт
- - Android-клієнт
- - iOS-клієнт
- - Back-сервер
-
-TODO: стек технологій (кожний вказує окремо у совєму репозиторію)
-
-## Основні функціональні блоки
-Сервіс складається з наступних функціональних блоків:
- - Акаунти (реєстрація, автентифікація та авторизація)
- - Групи (сворення, запрошення учасників до груп)
- - Відправка завдань
- - Здача завдань
- - Бібліотека завдань
+## Main components
+The main components of the service are:
+  - Web client
+  - Android client
+  - iOS client
+  - Back-server
